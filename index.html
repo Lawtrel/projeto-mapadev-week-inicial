@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />
+    <link rel="stylesheet" href="./src/css/estilo.css" />
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
+    <title>Escolha seu Personagem</title>
   </head>
   <body>
     <main>
       <header class="cabecalho">
           <h1 class="titulo">Character Select</h1>
       </header>
-      <div class="selecao-de-personagem">
+
+      <div class="selecao-de-personagens">
           <div class="personagem-grande personagem-jogador-1"></div>
             <img src="./src/imagens/X.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1">
             <div class="nome">
@@ -20,7 +27,7 @@
           <ul class="lista-de-personagens">
             <li class="personagem selecionado" id="X" data-name="X">
               <span class="tag">1P</span>
-              <img src="./src/imagens/X-icon.png" alt="Personagem X">
+              <img src="./src/imagens/X-icon.png" alt="X">
             </li>
 
             <li class="personagem" id="Zero" data-name="Zero">
@@ -55,7 +62,7 @@
 
             <li class="personagem" id="CopyX" data-name="CopyX">
               <span class="tag">1P</span>
-              <img src="./src/imagens/copyx-icon.jpg" alt="Copy X">
+              <img src="./src/imagens/copyx-icon.jpg" alt="CopyX">
             </li>
 
             <li class="personagem" id="Bass" data-name="Bass">
@@ -72,5 +79,6 @@
           
       </div>
     </main>
+    <script src="./src/js/index.js"></script>
   </body>
 </html>
